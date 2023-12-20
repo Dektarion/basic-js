@@ -21,11 +21,9 @@ function encodeLine(str) {
     } else if (str[i] === str[i + 1]) {
       number += 1;
     }
-
-    console.log(newStr);
   }
 
-  return str;
+  return newStr;
 }
 
 module.exports = {
